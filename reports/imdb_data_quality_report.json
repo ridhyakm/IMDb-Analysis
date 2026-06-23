@@ -1,0 +1,129 @@
+{
+  "name.basics.tsv.gz": {
+    "total_records": 1000000,
+    "missing_values": {
+      "nconst": 0,
+      "primaryName": 10,
+      "birthYear": 956018,
+      "deathYear": 982975,
+      "primaryProfession": 201229,
+      "knownForTitles": 120278
+    },
+    "data_types": {
+      "nconst": "object",
+      "primaryName": "object",
+      "birthYear": "float64",
+      "deathYear": "float64",
+      "primaryProfession": "object",
+      "knownForTitles": "object"
+    }
+  },
+  "title.akas.tsv.gz": {
+    "total_records": 1000000,
+    "missing_values": {
+      "titleId": 0,
+      "ordering": 0,
+      "title": 1,
+      "region": 218015,
+      "language": 327809,
+      "types": 675408,
+      "attributes": 994581,
+      "isOriginalTitle": 0
+    },
+    "data_types": {
+      "titleId": "object",
+      "ordering": "int64",
+      "title": "object",
+      "region": "object",
+      "language": "object",
+      "types": "object",
+      "attributes": "object",
+      "isOriginalTitle": "int64"
+    }
+  },
+  "title.basics.tsv.gz": {
+    "total_records": 1000000,
+    "missing_values": {
+      "tconst": 0,
+      "titleType": 0,
+      "primaryTitle": 2,
+      "originalTitle": 2,
+      "isAdult": 0,
+      "startYear": 117087,
+      "endYear": 987588,
+      "runtimeMinutes": 641018,
+      "genres": 43158
+    },
+    "data_types": {
+      "tconst": "object",
+      "titleType": "object",
+      "primaryTitle": "object",
+      "originalTitle": "object",
+      "isAdult": "int64",
+      "startYear": "float64",
+      "endYear": "float64",
+      "runtimeMinutes": "object",
+      "genres": "object"
+    }
+  },
+  "title.crew.tsv.gz": {
+    "total_records": 1000000,
+    "missing_values": {
+      "tconst": 0,
+      "directors": 443018,
+      "writers": 492052
+    },
+    "data_types": {
+      "tconst": "object",
+      "directors": "object",
+      "writers": "object"
+    }
+  },
+  "title.episode.tsv.gz": {
+    "total_records": 1000000,
+    "missing_values": {
+      "tconst": 0,
+      "parentTconst": 0,
+      "seasonNumber": 207454,
+      "episodeNumber": 207454
+    },
+    "data_types": {
+      "tconst": "object",
+      "parentTconst": "object",
+      "seasonNumber": "float64",
+      "episodeNumber": "float64"
+    }
+  },
+  "title.principals.tsv.gz": {
+    "total_records": 1000000,
+    "missing_values": {
+      "tconst": 0,
+      "ordering": 0,
+      "nconst": 0,
+      "category": 0,
+      "job": 807532,
+      "characters": 512283
+    },
+    "data_types": {
+      "tconst": "object",
+      "ordering": "int64",
+      "nconst": "object",
+      "category": "object",
+      "job": "object",
+      "characters": "object"
+    }
+  },
+  "title.ratings.tsv.gz": {
+    "total_records": 1000000,
+    "missing_values": {
+      "tconst": 0,
+      "averageRating": 0,
+      "numVotes": 0
+    },
+    "data_types": {
+      "tconst": "object",
+      "averageRating": "float64",
+      "numVotes": "int64"
+    }
+  }
+}
